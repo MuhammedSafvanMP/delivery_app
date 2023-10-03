@@ -149,4 +149,10 @@ img{
     display: flex;
     margin-top: 20px;
 }
+
+  /* Contact section */
+
+  .contact-section-title{
+    margin-left: 15%;
+}
     
