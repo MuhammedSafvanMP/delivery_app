@@ -110,3 +110,9 @@ img{
     width: 30px;
     color: var(--primary-color);
 }
+
+    /* Home section */
+
+    .home-section p{
+        margin: 15px 0;
+    }
