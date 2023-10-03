@@ -141,3 +141,12 @@ img{
 .service-box-items h5{
     padding-top: 1rem;
 }
+
+    /* Delivery section */
+
+.delivery-section-btn{
+    gap: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+    
