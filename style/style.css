@@ -113,6 +113,31 @@ img{
 
     /* Home section */
 
-    .home-section p{
+.home-section p{
         margin: 15px 0;
-    }
+ }
+
+    /* Service section */
+
+.service-section{
+    text-align: center;
+}
+.service-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service-box-items{
+    margin-right: 20px;
+    padding: 70px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 13px var(--box-shadow);
+    align-self: normal;
+}
+.service-box-items svg{
+    width: 100%;
+    margin: 2rem 0;
+}
+.service-box-items h5{
+    padding-top: 1rem;
+}
