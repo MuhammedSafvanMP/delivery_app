@@ -17,8 +17,7 @@
   </head>
   <body >
     <!-- Navbar section -->
-    <!-- <header class="header">
-    </header> --> 
+  
     <header>
       <div class="nav-head">
 
@@ -36,7 +35,7 @@
              <img src="./images/moon.png" id="icon" alt="moon_image">
             </li>
           </ul>
-          <button class="btn">Order Now!</button>
+          <button class="btn showForm">Order Now!</button>
         </nav> 
       </div>
       
@@ -60,7 +59,6 @@
             <button class="btn">Get started</button>
           </div>
         </div>
-        <!-- <img src="./img/home-ilustration.svg" class="width-img red-icon" alt="home_image" /> -->
         <svg class="width-img red-img svg__color home__img gap" viewBox="0 0 554 325" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0)">
             <path d="M505.712 156.064H423.293V219.381H505.712V156.064Z" fill="#F5F5F5"/>
@@ -553,7 +551,6 @@
 
       <!-- About section -->
       <section class="about-section mar-top display-flex reverce ">
-        <!-- <img src="./img/about-ilustration.svg" class="width-img" alt="about_image" /> -->
         <svg class="width-img red-img svg__color about__img gap" viewBox="0 0 312 236" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0)">
           <path class="svg__blob" fill-rule="evenodd" clip-rule="evenodd" d="M146.137 4.22643C177.748 -2.97581 206.274 23.1576 229.992 40.5258C251.017 55.9222 262.978 75.8309 272.499 96.7598C282.192 118.066 300.281 142.538 285.25 161.993C269.962 181.783 230.296 177.103 202.881 186.874C182.644 194.086 167.895 207.639 146.137 211.573C119.351 216.416 86.2133 225.465 65.5354 211.707C44.5361 197.736 61.8497 170.746 54.1954 150.402C47.0089 131.301 13.4763 116.078 22.5437 97.4402C31.6999 78.6197 73.623 86.0355 92.3992 71.8745C117.647 52.8331 111.996 12.005 146.137 4.22643Z"/>
@@ -751,7 +748,6 @@
             is made.
           </p>
         </div>
-        <!-- <img src="./img/security-ilustration.svg" class="width-img" alt="security_image" /> -->
         <svg class="width-img red-img svg__color gap" viewBox="0 0 312 221" xmlns="http://www.w3.org/2000/svg">
           <path class="svg__blob" fill-rule="evenodd" clip-rule="evenodd" d="M146.137 4.22643C177.748 -2.97581 206.274 23.1576 229.992 40.5258C251.017 55.9222 262.978 75.8309 272.499 96.7598C282.192 118.066 300.281 142.538 285.25 161.993C269.962 181.783 230.296 177.103 202.881 186.874C182.644 194.086 167.895 207.639 146.137 211.573C119.351 216.416 86.2133 225.465 65.5354 211.707C44.5361 197.736 61.8497 170.746 54.1954 150.402C47.0089 131.301 13.4763 116.078 22.5437 97.4402C31.6999 78.6197 73.623 86.0355 92.3992 71.8745C117.647 52.8331 111.996 12.005 146.137 4.22643Z"/>
           <path d="M265.796 16.6642H203.683V128.316H265.796V16.6642Z" fill="#EBEBEB"/>
@@ -937,6 +933,26 @@
           <path d="M163.36 212.661H159.431V207.107H163.36V212.661ZM159.455 212.637H163.336V207.131H159.455V212.637Z" fill="#263238"/>
       </svg>
       </section>
+
+
+      <!-- Form section -->
+
+      <div class="form-section">
+        <div class="form-box form">
+          <form id="myForm" class="form-show">
+            <i class="fa-solid fa-circle-xmark close"></i>
+            <p class="error" id="error">Form validation</p>
+            <input type="text" name="name" id="name" placeholder="Full Name">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="text" name="number" placeholder="91+ 000000000" id="phone">
+            <input type="password" placeholder="Password" name="number" id="password">
+            <input type="password" name="number" id="cpassword" placeholder="Confirm password">
+            <input type="text" name="" id="" placeholder="Amount">
+            <input type="text" name="" id="" placeholder="ATM number">
+            <button type="submit">Pay</button>
+          </form>
+        </div>
+    </div>
 
       <!-- Services section -->
       <section class="service-section mar-top">
@@ -1737,7 +1753,6 @@
 
     <!-- Delivery section -->
     <section class="delivery-section mar-top display-flex reverce">
-        <!-- <img src="./img/app-ilustration.svg" class="width-img" alt="delivery_image"> -->
         
         <svg class="width-img red-img svg__color app__img gap" viewBox="0 0 312 256" xmlns="http://www.w3.org/2000/svg">
           <path class="svg__blob" fill-rule="evenodd" clip-rule="evenodd" d="M145.125 18.6078C173.354 14.4016 203.149 28.173 222.745 42.8809C241.011 56.5901 234.19 78.9132 247.231 95.242C259.932 111.145 288.188 119.064 297.22 136.13C307.83 156.177 321.738 182.536 302.149 199.011C281.424 216.442 238.718 204.35 207.757 211.374C184.859 216.569 168.387 230.286 145.125 234.636C116.976 239.901 85.3942 248.272 59.396 239.121C33.4587 229.992 22.121 207.969 14.2075 188.556C7.22755 171.433 18.9753 153.892 17.413 136.13C15.7174 116.855 -10.3869 96.1299 4.64775 79.8762C19.9226 63.363 60.6879 73.9034 84.6339 63.4594C110.054 52.3727 115.767 22.982 145.125 18.6078Z"/>

@@ -19,3 +19,24 @@ icon.onclick = function () {
     icon.src = "./images/moon.png";
   }
 };
+
+//  Form toggle
+
+// show
+
+const showForm = document.querySelector('.showForm');
+const sform = document.querySelector('.form');
+
+showForm.addEventListener('click', function () {
+    sform.classList.add('seeForm')
+})
+
+// hide
+
+const hideForm = document.querySelector('.close');
+const hform = document.querySelector('.form');
+
+hideForm.addEventListener('click', function () {
+    hform.classList.remove('seeForm')
+})
+
